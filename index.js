@@ -10,7 +10,7 @@ if(message && branchname){
     if(!err){
         let {error, stdout,stderr} = execSync(`git commit -m "${message}"`)
         if(!err){
-            let {errormessage, stdout,stderr} = execSync(`git push -u origin "${branchname}"`)
+            let {errormessage, stdout,stderr} = execSync(`git push  origin "${branchname}"`)
             if(!errormessage){
                 console.log("successfully pushed your code to github");
                     console.log(stdout);
