@@ -36,5 +36,5 @@ if(message && branchname){
     })*/
 
 else{
-    console.log("please provide 2 arguments, first arg is message you want to commit message, and second arg is your branch name");
+    console.log("please provide 2 arguments, first arg is message you want to commit message, and second arg is your branch Name");
 }
